@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Self-con Search Properties</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style type="text/css">
+	body{
+		background: linear-gradient(90deg,#edfae933,#edfae9);
+        scroll-behavior: smooth;
+		
+		
+	}
+
+h2{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: bold;
+}
+
+input{
+	background-color: white;
+}
+ 
+h3{
+	display: inline;
+	font-family: cursive;
+	font-weight: bold;
+	font-style: italic;
+	top: -1.5rem;
+	position: relative;
+	left: 9px;
+	font-size: 23px;
+}
+
+p{
+	padding: 3rem;
+	top: -5rem;
+	position: relative;
+	font-family: Arial;
+	font-size: 15px;
+	line-height: 25px;
+	padding-bottom: 35px;
+	color: #848484;
+}
+.red{
+	color: rgb(250, 248, 134);
+}
+
+.brown{
+	color: rgb(247, 49, 49);
+
+}
+
+.form-content{
+	max-width: 33rem;
+	height: 55rem;
+	background: #fffcfb;
+	margin-left: 70vh;
+	border-radius: 2rem;
+	margin-top: 18px;
+	box-shadow: #9c9b9b 0px 0px 16px;
+	flex-wrap: wrap;
+	
+}
+
+.sign-in{
+	padding: 3rem;
+	font-family: sans-serif;
+
+}
+
+
+.form-input{
+	padding: 1rem 3rem;
+	position: relative;
+	top: -5rem;	
+    display: inline;
+    line-height: 2;
+	
+}
+.text1{
+	padding: 1rem;
+	border-radius: 20px;
+	width: 10rem;
+	height: 1rem;
+	border: 7px;
+	border: 1px solid green;
+	position: relative;
+	top: 0.8rem;
+	outline: orchid	;
+	background: transparent;
+
+	
+}
+
+.text2{
+	padding: 1rem;
+	border-radius: 20px;
+	width: 10rem;
+	height: 1rem;
+	border: 7px;
+	border: 1px solid green;
+	position: relative;
+    bottom: 4.3rem;
+    left: 16.5rem;
+	outline: orchid	;
+	background: transparent;
+
+	
+}
+
+.text3{
+	padding: 1rem;
+	border-radius: 20px;
+	width: 24rem;
+	height: 1.3rem;
+	border: 1px solid green;
+	position: relative;
+    bottom: 2rem;
+	left: 2.8rem;
+	outline: orchid	;
+	background: transparent;
+
+	
+}
+
+#text{
+	padding: 1rem;
+	border-radius: 20px;
+	width: 24rem;
+	height: 1.3rem;
+	border: 1px solid green;
+	position: relative;
+    bottom: 2rem;
+	left: 2.8rem;
+	outline: orchid	;
+	background: transparent;
+
+	
+}
+
+.padding{
+	padding: 9px;
+}
+
+.me{
+	position: relative;
+	right: 2px;
+	font-family: sans-serif;
+	font-size: 13px;
+	
+}
+
+
+
+.button1{
+	position: relative;
+	background-color: #dbf3c0;
+    height: 60px;
+    width: 80%;
+    border-radius: 20px;
+    color:  #6ab950;
+    font-size: 13px;
+    line-height: 16px;
+    border: none;
+     font-weight: 900;
+	 font-family: sans-serif;
+	 top: 5rem;
+}
+.button2{
+	position: relative;
+	background-color: #6ab950;
+    height: 60px;
+    width: 80%;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 13px;
+    line-height: 16px;
+    border: none;
+     font-weight: 900;
+	 font-family: sans-serif;
+	 top:4rem;
+	 
+}
+
+.line-hight{
+	height: 11rem;
+}
+
+.buttons{
+    position: relative;
+    bottom: 9rem;
+    left: 3rem;
+}
+
+#eye-open{
+	bottom: 2rem;
+	position: relative;
+
+}
+
+@media screen and (max-width: 731px) {
+	.text3, #text{
+	width: 10rem;
+
+
+}
+
+
+
+.text2{
+	width: 9rem;
+}
+
+
+
+}
+
+@media screen and (max-width: 1000px) {
+ 
+
+.text2{
+	
+	width: 9.5rem;
+	left: 17rem;
+	position: relative;
+	height: 1.3rem;
+	bottom: 4.4rem;
+	
+	
+}
+.text1{
+	width: 9rem;
+	height: 1.3rem;
+}
+
+
+.form-content {
+	margin-left: 0px;
+    flex-direction: column;
+  
+  }
+
+  #eye-open{
+	
+	position: relative;
+
+}
+
+.buttons{
+	top: -9rem;
+	left: 3.2rem;
+	position: relative;
+}
+.form-input{
+	top: -6rem;
+	position: relative;
+	
+}
+}
+</style>
+<body>
+
+<div class="form-box">
+	<form action="sumit" spellcheck="false" class="form-content">
+		<div class="padding">
+		<h2 class="sign-in">Sign Up as a Tenant</h2>
+
+		<p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam iste dolores ullam labore eos sint, quod fuga.
+				</p>
+
+			<div class="form-input">
+				<input class="text1" type="name" name="name" placeholder="First Name" required><br><br>
+				<input class="text2" type="name" name="name" placeholder="Last Name" required>
+                <input class="text3" type="email" name="email" placeholder="Email Address" required><br><br>
+                <input class="text3" type="number" name="Phone" placeholder="Phone Number" required><br><br>
+                <input class="text3" type="address" name="Address" placeholder="Home Address" required><br><br>
+			
+                <input id="text" type="password" name="password" placeholder="Password" required>
+				<i class="fa-regular fa-eye" id="eye-open" onclick="myFunction()"></i>
+				
+				
+				
+			
+				
+
+
+			</div>
+			
+            <div class="buttons">
+       <button type="submit"  class="button2">REGISTER</button>
+       <a href="index2.html" class="href"><button type="button" class="button1">SIGN IN</button></a>
+    </div>
+
+		
+			</div>
+			
+		</div>
+			
+	</form>
+
+</div>
+<div class="line-hight">
+
+</div>
+
+<script>
+	function myFunction() {
+	  var x = document.getElementById("text");
+	  if (x.type === "password") {
+		x.type = "text";
+	  } else {
+		x.type = "password";
+	  }
+	}
+
+	const togglePassword = document.querySelector('#eye-open');
+ 
+ 
+  togglePassword.addEventListener('click', function (e) {
+   
+    
+    // toggle the eye slash icon
+    this.classList.toggle('fa-eye-slash');
+});
+
+
+
+</script>
+</body>
+</html>
